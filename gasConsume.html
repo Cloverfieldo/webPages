@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<h3>CONSUMO DE GASOLINA</h3>
+<script>
+function jumpLineWithStyle(){
+    document.write("<hr>")
+}
+function jumpLine(){
+    document.write("<br>")
+}
+travel = 400
+consumeOfGas = 40
+gasPerKilometer = travel / consumeOfGas
+travelWithEtanol = 300
+consumeOfEtanol = 40
+etanolPerKilometer = travelWithEtanol / consumeOfEtanol
+document.write("Você gastou " + gasPerKilometer +" por kilometro")
+jumpLineWithStyle()
+document.write("Com etanol você gastou " + etanolPerKilometer)
+jumpLineWithStyle()
+</script>
