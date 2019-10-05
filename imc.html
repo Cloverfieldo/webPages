@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+<script>
+
+function calculateIMC(weight, heigh){
+    var imc = weight / (heigh * heigh);
+    return imc;
+}
+var userName = prompt("Qual é o seu nome")
+var userWeight = prompt("Qual é o seu peso")
+var userHeight = prompt("Qual é a sua altura")
+var userIMC = calculateIMC(userWeight, userHeight)
+
+document.write("<h4> Seu IMC é " + userIMC)
+</script>
